@@ -24,7 +24,7 @@ function App() {
 			</section>
 			<section>
 				<div>
-					<p id="text-download">▪️ Descarga el libro aquí mismo 👇🥰</p>
+					<p id="text-download">▪️ Descarga la demo del libro aquí mismo 👇🥰</p>
 					<button>
 						<a href="La Maldicion de Esker'lamet.pdf" download={true}>
 							<MdSimCardDownload id="icon-download"/>
