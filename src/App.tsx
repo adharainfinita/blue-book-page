@@ -35,6 +35,7 @@ function App() {
 					</div>
 				</div>
 			</section>
+			<h3>Acerca de este proyecto</h3>
 			<section id="igSection">
 				<div>
 			<InstaVisualizer/>
@@ -55,15 +56,15 @@ function App() {
 			</section>
       <section id="final-text">
 
-			<p > 👾👾👾 Y no te olvides de seguirme en mis otras redes sociales 👾👾👾</p>
 			<p>Entrá al siguiente enlace para enterarte qué es este proyecto y quién soy yo:</p>
 				<a href="https://www.instagram.com/universo_2099/" target="_blank">
 				<TiSocialInstagram className="social-icons" />
 			</a>
-						<p>Y seguime en mi canal de Youtube para ver vídeos sobre el universo 2099</p>
-						<a href="">
+						<p>En mi canal de Youtube vas a encontrar vídeos sobre el universo 2099</p>
+						<a href="https://www.youtube.com/@adhararedruello2310">
 							<TiSocialYoutube className="social-icons"/>
 						</a>
+			<p > 👾👾👾 Y no te olvides de seguirme en mis otras redes sociales 👾👾👾</p>
 			<a href="https://ar.pinterest.com/Adhara97/" target="_blank">
 				{" "}
 				<TiSocialPinterest className="social-icons" />

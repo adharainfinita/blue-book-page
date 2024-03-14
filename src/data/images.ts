@@ -25,7 +25,7 @@ const header2: Header={
 
 export const stories2: Story[]= [
   {url:"https://res.cloudinary.com/dlbhecdey/image/upload/v1710448968/sdtfv7uhd2xi2qhdgrih.jpg", header: header2},
-  {url:"https://res.cloudinary.com/dlbhecdey/image/upload/v1710448969/lhytqumqe6m7vl7ahwl6.webp"},
+  {url:"https://res.cloudinary.com/dlbhecdey/image/upload/v1710448969/lhytqumqe6m7vl7ahwl6.webp", header: header2},
   {url:"https://res.cloudinary.com/dlbhecdey/image/upload/v1710448970/jkysdwb9cslakjyanp22.webp", header: header2},
   {url:"https://res.cloudinary.com/dlbhecdey/image/upload/v1710448971/vehgv4jgaazor5ms4bqc.webp", header: header2},
   {url:"https://res.cloudinary.com/dlbhecdey/image/upload/v1710448969/dmjsecmfcpvepqcxaibn.webp", header: header2},
