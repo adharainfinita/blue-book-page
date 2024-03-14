@@ -25,6 +25,7 @@
 
   .paragraph{
     text-align: left;
+    font-size: 70%;
     margin: 1%;
   }
 
@@ -39,6 +40,10 @@
   }
   #icon-download:hover {
     color: aqua;
+  }
+
+  #igSection {
+    display: flex;
   }
 
   .social-icons {
@@ -60,4 +65,15 @@
         background-image: linear-gradient(rgb(4, 16, 22),rgb(109, 0, 0));
         
     }
+}
+#detailBooksSecton{
+  display: flex;
+  align-items: center;
+}
+
+#bookImg {
+  width: 50%;
+  height: 80%;
+  margin: 2%;
+  border-radius: 5px;
 }

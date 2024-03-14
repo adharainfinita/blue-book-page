@@ -1,8 +1,10 @@
 import { MdSimCardDownload } from "react-icons/md";
-import { TiSocialInstagram, TiSocialPinterest } from "react-icons/ti";
+import { TiSocialInstagram, TiSocialPinterest, TiSocialYoutube } from "react-icons/ti";
 import { SiWattpad, SiSpotify } from "react-icons/si";
-import { text } from "./data/text";
+import { detailsBooks, text } from "./data/text";
 import "./App.css";
+import InstaVisualizer from "./components/insta-stories";
+import InstaAuthor from "./components/insta-author";
 
 function App() {
 	return (
@@ -22,9 +24,28 @@ function App() {
 					return <div className="paragraph">{element}</div>;
 				})}
 			</section>
+			<section id="detailBooksSecton">
+					<img id="bookImg" src="https://res.cloudinary.com/dlbhecdey/image/upload/v1710362609/IMG_20240221_130046163_wqwi8h.jpg" alt="the blue book" />
+				<div>
+					<h3>Características</h3>
+					<div className="text">
+						{detailsBooks.map((element)=> {
+							return <div className="paragraph">{element}</div>
+						})}
+					</div>
+				</div>
+			</section>
+			<section id="igSection">
+				<div>
+			<InstaVisualizer/>
+				</div>
+				<div>
+				<InstaAuthor/>
+				</div>
+			</section>
 			<section>
 				<div>
-					<p id="text-download">▪️ Descarga la demo del libro aquí mismo 👇🥰</p>
+					<p id="text-download">▪️ Podés descargar la demo del libro aquí mismo 👇🥰</p>
 					<button>
 						<a href="LMDE_parte_1.pdf" download={true}>
 							<MdSimCardDownload id="icon-download"/>
@@ -34,10 +55,15 @@ function App() {
 			</section>
       <section id="final-text">
 
-			<p > 👾👾👾 Y no te olvides de seguirme en mis redes sociales 👾👾👾</p>
-			<a href="https://www.instagram.com/sexta_vocal/" target="_blank">
+			<p > 👾👾👾 Y no te olvides de seguirme en mis otras redes sociales 👾👾👾</p>
+			<p>Entrá al siguiente enlace para enterarte qué es este proyecto y quién soy yo:</p>
+				<a href="https://www.instagram.com/universo_2099/" target="_blank">
 				<TiSocialInstagram className="social-icons" />
 			</a>
+						<p>Y seguime en mi canal de Youtube para ver vídeos sobre el universo 2099</p>
+						<a href="">
+							<TiSocialYoutube className="social-icons"/>
+						</a>
 			<a href="https://ar.pinterest.com/Adhara97/" target="_blank">
 				{" "}
 				<TiSocialPinterest className="social-icons" />

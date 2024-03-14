@@ -7,4 +7,12 @@ const thirdP: string =
 const fourthP: string =
 	"Su muerte es tan solo el principio de una guerra por el poder que está a punto de estallar  . Y las consecuencias de ello involucrarán mucho más de lo que se espera. Dioses, demonios, sectas, y una maldición que une a tres mujeres atravesadas por el sufrimiento.";
 
+const firstDetail: string = "🔸Cant. de pág: 629";
+const secondDetail: string = "🔸 Género: Thriller / Policial / Mitológico";
+const thirdDetail: string = "🔸1/3 de la trilogía El Libro Azul";
+const fourthDetail: string = "🔸Tapa dura laminada";
+const fiveDetailt:string="🔸 Ediciones artesanales hechas con amor por panambi_encuadernacion."
+
+	
 export const text: Array<string> = [firstP, secondP, thirdP, fourthP];
+export const detailsBooks: Array<string>= [firstDetail, secondDetail, thirdDetail, fourthDetail, fiveDetailt]
