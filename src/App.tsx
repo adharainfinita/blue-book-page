@@ -25,7 +25,9 @@ function App() {
 				})}
 			</section>
 			<section id="detailBooksSecton">
-					<img id="bookImg" src="https://res.cloudinary.com/dlbhecdey/image/upload/v1710362609/IMG_20240221_130046163_wqwi8h.jpg" alt="the blue book" />
+				<div id="bookImg">
+					<img src="https://res.cloudinary.com/dlbhecdey/image/upload/v1710362609/IMG_20240221_130046163_wqwi8h.jpg" alt="the blue book" />
+				</div>
 				<div>
 					<h3>Características</h3>
 					<div className="text">
@@ -37,16 +39,16 @@ function App() {
 			</section>
 			<h3>Acerca de este proyecto</h3>
 			<section id="igSection">
-				<div>
+				<div className="igDiv">
 			<InstaVisualizer/>
 				</div>
-				<div>
+				<div className="igDiv">
 				<InstaAuthor/>
 				</div>
 			</section>
 			<section>
 				<div>
-					<p id="text-download">▪️ Podés descargar la demo del libro aquí mismo 👇🥰</p>
+					<p id="text-download">▪️ Podés descargar la demo del libro dandole clic al siguiente botón 👇🥰</p>
 					<button>
 						<a href="LMDE_parte_1.pdf" download={true}>
 							<MdSimCardDownload id="icon-download"/>

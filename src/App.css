@@ -46,6 +46,13 @@
     display: flex;
   }
 
+  .igDiv {
+    margin: 1%;
+    padding: 2%;
+    background-color: rgb(16, 16, 16);
+    border-radius: 5%;
+  }
+
   .social-icons {
     margin:1%;
     font-size: 200%;
@@ -75,5 +82,7 @@
   width: 50%;
   height: 80%;
   margin: 2%;
+  padding: 1%;
+ background-color: pink;
   border-radius: 5px;
 }
