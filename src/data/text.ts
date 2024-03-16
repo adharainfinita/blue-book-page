@@ -11,8 +11,12 @@ const firstDetail: string = "🔸Cant. de pág: 629";
 const secondDetail: string = "🔸 Género: Thriller / Policial / Mitológico";
 const thirdDetail: string = "🔸1/3 de la trilogía El Libro Azul";
 const fourthDetail: string = "🔸Tapa dura laminada";
-const fiveDetailt:string="🔸 Ediciones artesanales hechas con amor por panambi_encuadernacion."
+const fiveDetailt:string="🔸 Ediciones artesanales hechas con amor por panambi_encuadernacion"
 
-	
+const aboutMe1: string = "Mi nombre es Adhara Redruello, escritora y desarrolladora web. "
+const aboutMe2: string = "Oriunda de Concepción del Uruguay, Argentina. "
+ const aboutMe3: string = "Podés contactarme en la sección de abajo."	
+
 export const text: Array<string> = [firstP, secondP, thirdP, fourthP];
-export const detailsBooks: Array<string>= [firstDetail, secondDetail, thirdDetail, fourthDetail, fiveDetailt]
+export const detailsBooks: Array<string>= [firstDetail, secondDetail, thirdDetail, fourthDetail, fiveDetailt];
+export const aboutMe: Array<string> = [aboutMe1, aboutMe2, aboutMe3];
