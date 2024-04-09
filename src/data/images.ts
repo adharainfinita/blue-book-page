@@ -32,3 +32,15 @@ export const stories2: Story[]= [
   {url:"https://res.cloudinary.com/dlbhecdey/image/upload/v1710448968/fip64nb7ctke9gpjuxyq.webp", header: header2}
 ]
 
+const header3: Header={
+  heading: 'Formato de serie',
+  subheading: '4 tomos',
+  profileImage: "https://res.cloudinary.com/dlbhecdey/image/upload/v1710445477/juh33eq1elbilnvkzqvt.png"
+}
+
+export const stories3: Story[] = [
+  {url: "https://res.cloudinary.com/dlbhecdey/image/upload/v1712629538/uxirueabb4ebhr8jo2x4.png", header: header3},
+  {url: "https://res.cloudinary.com/dlbhecdey/image/upload/v1712629538/naqfaeikilbqadvmhoun.png",  header: header3},
+  {url: "https://res.cloudinary.com/dlbhecdey/image/upload/v1712629539/yuwmbu5dijqsfficfaws.png",  header: header3},
+  {url: "https://res.cloudinary.com/dlbhecdey/image/upload/v1712629540/yhxlh0niv1qufyxuk07z.png",  header: header3}
+]

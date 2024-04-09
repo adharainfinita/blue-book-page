@@ -115,10 +115,12 @@
 }
 
 
-#detailBooksSecton{
+.detailBooksSecton{
   display: flex;
   align-items: center;
+  justify-content: center;
 }
+
 
 #bookImg {
   width: 100%;
@@ -164,4 +166,9 @@
   #aboutMeDiv {
     font-size: 25px;
   }
+}
+
+#video {
+  display: flex;
+  justify-content: center;
 }
