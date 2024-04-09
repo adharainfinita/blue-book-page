@@ -53,6 +53,7 @@
 
   #igSection {
     display: flex;
+    justify-content: space-around;
   }
 
   .igDiv {
