@@ -1,0 +1,39 @@
+.sidebar {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background-color: #370606;
+  padding: 20px;
+  margin-left: -200px; /* Ancho inicial de la barra lateral */
+  width: 200px;
+  transition: margin-left 0.3s ease;
+}
+
+.sidebar-content {
+  margin-left: 10px;
+}
+
+.sidebar h2 {
+  margin-bottom: 10px;
+}
+
+.sidebar-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-links li {
+  margin-bottom: 10px;
+}
+
+.sidebar-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Estilos para la barra lateral expandida */
+.sidebar.expanded {
+  margin-left: 0;
+}

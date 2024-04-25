@@ -1,8 +1,12 @@
 
 import Stories from 'react-insta-stories';
-import { stories } from '../data/images';
+import { Story } from 'react-insta-stories/dist/interfaces';
+interface InstaVisualizerProps {
+  stories: Story[];
+}
 
-const InstaVisualizer = () => {
+
+const InstaVisualizer: React.FC<InstaVisualizerProps> = ({stories}) => {
   return(
 		<Stories
 			stories={stories}
