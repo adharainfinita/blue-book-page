@@ -9,9 +9,26 @@
   width: 200px;
   transition: margin-left 0.3s ease;
 }
+@media(max-width: 767px) {
+  .sidebar {
+    margin-left: -230px;
+  }
+}
+@media(min-width: 768px) {
+  .sidebar {
+    margin-left: -200px;
+  }
+}
 
 .sidebar-content {
   margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-content a {
+  padding: 1%;
+  margin: 1% 0;
 }
 
 .sidebar h2 {
@@ -36,4 +53,18 @@
 /* Estilos para la barra lateral expandida */
 .sidebar.expanded {
   margin-left: 0;
+  border-radius: 0 10px 10px 0;
+}
+
+@media(max-width: 767){
+  .sidebar.expanded {
+    width: 100px;
+  }
+}
+
+@media(min-width: 768){
+  .sidebar.expanded {
+     width: 200px;
+  }
+ 
 }
