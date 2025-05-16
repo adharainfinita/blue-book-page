@@ -9,13 +9,13 @@ const fourthP: string =
 
 const firstDetail: string = "🔸Cant. de pág: 649";
 const secondDetail: string = "🔸 Género: Thriller / Policial / Mitológico";
-const thirdDetail: string = "🔸1/3 de la trilogía El Libro Azul";
+const thirdDetail: string = "🔸1° de la saga de 'El Libro Azul'";
 const fourthDetail: string = "🔸Tapa dura laminada";
 const fiveDetailt:string="🔸 Ediciones artesanales hechas con amor por panambi_encuadernacion"
 
 const aboutMe1: string = "Mi nombre es Adhara Redruello, escritora y desarrolladora web. "
-const aboutMe2: string = "Oriunda de Concepción del Uruguay, Argentina. "
-const aboutMe3: string = "Podés contactarme en la sección de abajo."	
+const aboutMe2: string = "Oriunda de Concepción del Uruguay, Argentina. Soy amante de los juegos de rol, de las historias de ficción pero también una buscadora de la verdad. El conocimiento ha sido siempre algo que he perseguido durante toda mi vida. "
+const aboutMe3: string = "Si querés saber sobre mí podés contactarme en la sección de abajo, seguirme en redes o hablarme por privado."	
 
 const aboutEbook1: string = "Podés conseguir por un precio mínimo el libro en formato electrónico(e-book) en la tienda de Amazon kindle.";
 const aboutEbook2: string = "Además, allí también se encuentra disponible otra novela de mi propiedad: Memorias de Regresión, a tal sólo 5US$.";

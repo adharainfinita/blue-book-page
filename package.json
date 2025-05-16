@@ -11,10 +11,10 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@types/babel__generator": "^7.27.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.0.1",
-    "react-insta-stories": "^2.6.2",
     "react-player": "^2.15.1"
   },
   "devDependencies": {

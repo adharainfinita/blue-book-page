@@ -4,7 +4,6 @@ import "./App.css";
 
 import ReactPlayer from "react-player/youtube";
 import OriginalEdition from "./components/original-edition";
-import SerialEdition from "./components/serial-edition";
 import EbookEdition from "./components/ebook-edition";
 import AboutTheProyect from "./components/about-the-proyect";
 import Contact from "./components/contact";
@@ -36,8 +35,7 @@ function App() {
 			<h1>Formatos</h1>
 			<h3>Edición Original</h3>
 			<OriginalEdition />
-			<h3>Edición en Serie</h3>
-			<SerialEdition />
+
 			<h3>E-Book</h3>
 			<EbookEdition />
 			<h3>Acerca de este proyecto</h3>

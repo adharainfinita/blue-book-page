@@ -1,19 +1,11 @@
-import InstaVisualizer from "./insta-visualizer";
+
 import { aboutMe } from "../data/text";
 import { IoMdDownload } from "react-icons/io";
-import { stories, stories2, } from "../data/images";
+
 
 const AboutTheProyect = () => {
   return (
     <>
-    <section id="igSection">
-    <div className="igDiv">
-      <InstaVisualizer stories={stories}/>
-    </div>
-    <div className="igDiv">
-    <InstaVisualizer stories={stories2} />
-    </div>
-  </section>
   <div id="aboutMeDiv">
     {aboutMe.map((element) => {
       return <p className="aboutMeText">{element}</p>;
